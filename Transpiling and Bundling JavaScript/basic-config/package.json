@@ -1,0 +1,24 @@
+{
+  "name": "practice-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w webpack.config.js -x webpack-dev-server --progress",
+    "build-dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "webpac-cli": "^1000.0.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-stats-plugin": "^0.2.1"
+  },
+  "dependencies": {}
+}
